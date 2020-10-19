@@ -1,0 +1,207 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    background-size: cover;
+}
+
+.headerDiv {
+    height: 50px;
+    width: 1950px;
+    background-color: black;
+    border-radius: 5px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    font-size: 50px;
+}
+
+#container {
+    width: 2000px;
+    height: 800px;
+    margin: auto;
+    padding: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.leftDiv {
+    width: 400px;
+    height: 600px;
+    float: left;
+    margin: auto;
+    padding-top: 50px;
+    opacity: 100%;
+    background-color: black;
+}
+
+.rightDiv {
+    width: 1366px;
+    height: 768px;
+    background-color: #b9c2c9;
+    margin: 30px;
+    padding: 10px;
+    border-radius: 5px;
+    float: left;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 30px #b9c2c9;
+    overflow: auto;
+}
+
+.homeDiv {
+    width: 300px;
+    height: 75px;
+    background-image: url(images/home.png);
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    box-shadow: 0px 0px 20px #dd9b9b;
+    border-radius: 5px;
+}
+
+.twoDDiv {
+    width: 300px;
+    height: 75px;
+    background-image: url(images/2D.png);
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    box-shadow: 0px 0px 20px #b97397;
+    border-radius: 5px;
+}
+
+.threeDDiv {
+    width: 300px;
+    height: 75px;
+    background-image: url(images/3D.png);
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    box-shadow: 0px 0px 20px #97588d;
+    border-radius: 5px;
+}
+
+.gamesDiv {
+    width: 300px;
+    height: 75px;
+    background-image: url(images/Games.png);
+    margin: auto;
+    margin-top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-family: cursive;
+    color: black;
+    box-shadow: 0px 0px 20px #503967;
+    border-radius: 5px;
+}
+
+.homeDiv:hover, .twoDDiv:hover, .threeDDiv:hover, .gamesDiv:hover {
+    filter: grayscale(100%);
+}
+
+.itemHeadDiv {
+    width: 1300px;
+    padding: 10px;
+    padding-left: 50px;
+    font-family: cursive;
+    font-size: 30px;
+    text-decoration: underline;
+    overflow: hidden;
+}
+.itemDiv {
+    width: 400px;
+    height: 500px;
+    justify-content: center;
+    align-items: center;
+    margin: 15px;
+    padding: 10px;
+    float: left;
+    font-family: cursive;
+    font-size: 20px;
+    text-align: center;
+    overflow: hidden;
+}
+
+.itemInfoDiv {
+    width: 1300px;
+    height: 650px;
+    padding: 10px;
+    font-family: cursive;
+    font-size: 15px;
+    overflow: auto;
+}
+
+/* Style the tab */
+.tab {
+    width: 1300px;
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    border-radius: 3px;
+    margin-left: 10px;
+    margin-bottom: 30px;
+}
+
+/* Style the buttons inside the tab */
+.tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+    background-color: #ddd;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+    background-color: #ccc;
+}
+
+/* Style the tab content */
+.tabcontent {
+    overflow: auto;
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+    margin-left: 10px;
+}
+
+.footerDiv {
+    width: 1700px;
+    height: 100px;
+    background-color: #b9c2c9;
+    border-radius: 5px;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
